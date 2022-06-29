@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Typography</title>
+
+</head>
+<body>
+<h1> Heading</h1>
+<h2> Heading</h2>
+<h3> Heading</h3>
+<h4> Heading</h4>
+<h5> Heading</h5>
+<h6> Heading</h6>
+
+<hr>
+<b>Bold</b><br/>
+
+<strong> Strong </strong>
+<hr>
+<i> Italics </i><br/>
+
+<em> Emphasis</em><br/>
+<cite>Citetion<cite><br/>
+<dfn>Defination</dfn>
+<hr>
+<u>Underline</u>
+<ins> Insertion</ins>
+<hr>
+
+<div> Divison - New Line , No Margin.</div>
+
+<blockquote> Blockquote - New line , Margin-Top, Margin-Left, Margin-right.</blockquote>
+
+<abbr title = "Silver Oak University">S.O.U</abbr></br>
+<acronym title ="LD college of Engineering">L.D.</acronym>
+
+</body>
+</html>
