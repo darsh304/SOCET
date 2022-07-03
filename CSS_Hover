@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>CSS Hover Element Selector OR Child Combinator</title>
+<style type-"text/css">
+#MainUL li ul li{display: none;}
+#MainuL li:hover ul li{display:block;}
+#MainUL li:hover ul li ul li{display:none; }
+#MainUL li ul li:hover ul li{display: block;}
+#MainUL li ul li:hover ul li ul li{display :none;}
+#MainuL li ul li ul li:hover ul li{display:block;}
+</style>
+</head>
+<body>
+<ul id="MainuL">
+<li>Google
+<ul>
+<li>mail
+<ul>
+<li>sign up</li>
+<lisign In
+<ul>
+<lisign In As Admin</li>
+<li>sign In As Member</li>
+</ul>
+</li>
+</ul
+</li>
+<li>Youtube</li>
+<li>Drive</li>
+<li>Map</li>
+</ul>
+</li>
+<li>facebook</li>
+<li>Microsoft
+<ul>
+<li>Bing</1i>
+<li>linked In</li>
+</ul>
+</li>
+<li>MSN</li>
+<li>Amazon
+<ul>
+<li>AWS</li>
+<li>Ecommercec</li>
+<li>A-ML</li>
+</ul>
+<li>
+</ul
+</body>
+</html>
