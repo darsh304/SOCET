@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+    width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(204, 140, 20);
+    box-shadow: 5px 5px 10px rgb(119, 109, 109), -5px -5px 10px rgb(163, 154, 154);
+}
+
+header{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.label{
+    margin: 10px 0 0 5%;
+}
+.label a{
+    color: rgb(204, 140, 20);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid rgb(204, 140, 20);
+    padding: 5px;
+}
+
+.navbar{
+    margin-left: 35%;
+}
+ .navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin: 8px 18px;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.navbar .active{
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: rgb(204, 140, 20);
+    color: white;
+}
+
+.body-content{
+    display: flex;
+}
+
+.b-title{
+    margin-left: 5%;
+}
+
+.b-title h1{ 
+    font-size: 30px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.b-title p{
+    margin: 30px 0
+}
+
+.b-title a{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background: rgb(204, 140, 20);  
+    border-radius: 6px;
+    color: white;
+}
+.b-title .btn{
+    margin-left: 10px;
+    background: rgb(134, 143, 109);
+}
+
+.b-img{
+    margin: 20px 160px;
+} 
+
+
+.b-img img{
+    width: 600px;
+}
+
+.label a:hover{
+    background: rgb(204, 140, 20);
+    color: white;
+}
+
+.navbar a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 1;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(204, 140, 20);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar a:hover:after{
+    width: 100%;
+    left: 0;
+
+ }   
