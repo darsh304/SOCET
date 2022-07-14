@@ -36,7 +36,7 @@ a{
 }
 
 .navbar{
-    margin-left: 35%;
+    margin-left: 24%;
 }
  .navbar ul{
     list-style: none;
@@ -88,12 +88,12 @@ a{
     color: white;
 }
 .b-title .btn{
-    margin-left: 10px;
+    margin-left: 0px;
     background: rgb(134, 143, 109);
 }
 
 .b-img{
-    margin: 20px 160px;
+    margin: 100px 100px;
 } 
 
 
@@ -105,6 +105,8 @@ a{
     background: rgb(204, 140, 20);
     color: white;
 }
+
+
 
 .navbar a:after{
     background: none repeat scroll 0 0 transparent;
@@ -124,3 +126,36 @@ a{
     left: 0;
 
  }   
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(204, 140, 20), 0 4px 8px rgb(204, 140, 20);
+}
+
+.card{
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgb(204, 140, 20), 0 0 6px rgb(204, 140, 20);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 14px 80px 18px 36px;
+  }
+
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.cards{
+    display: flex;
+}
